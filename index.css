@@ -1,0 +1,48 @@
+body {
+    background-color: #fafafa;
+}
+
+.navbar {
+    background-color: #21618C;
+    color: #ffffff;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #21618C;
+}
+
+p {
+    color: #888888;
+}
+
+#shop {
+    background-color: #e9e9e9;
+}
+
+#shop .card {
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+}
+
+#shop .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+#shop .card img {
+    transition: all 0.25s ease-out;
+}
+
+#shop .card:hover img {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #21618C;
+}
+
